@@ -45,18 +45,17 @@ body{
 }
 .date{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 5rem;
+  font-size: 1rem;
   text-transform: capitalize;
   font-weight: bold;
 }
 .clock{
   display: flex;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 8.5rem;
   text-transform: capitalize;
   font-weight: bolder;
 }
@@ -76,10 +75,12 @@ footer{
   .nav-bar-item{
     font-size: 0.8rem;
   }
-  .date{
+  .clock{
     font-size: 3rem;
   }
+}
+@media (min-width: 576px) and (max-width:1200px){
   .clock{
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
 }
